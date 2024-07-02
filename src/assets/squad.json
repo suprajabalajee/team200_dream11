@@ -1,0 +1,1272 @@
+{
+  "teams": [
+    {
+      "team_name": "Afghanistan",
+      "squad": [
+        {
+          "name": "Rahmanullah Gurbaz",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/rahmanullah_gurbaz.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Ibrahim Zadran",
+          "role": "Batsman",
+          "image": "https://example.com/images/ibrahim_zadran.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Azmatullah Omarzai",
+          "role": "All-rounder",
+          "image": "https://example.com/images/azmatullah_omarzai.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Najibullah Zadran",
+          "role": "Batsman",
+          "image": "https://example.com/images/najibullah_zadran.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Mohammad Ishaq",
+          "role": "Batsman",
+          "image": "https://example.com/images/mohammad_ishaq.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Mohammad Nabi",
+          "role": "All-rounder",
+          "image": "https://example.com/images/mohammad_nabi.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Gulbadin Naib",
+          "role": "All-rounder",
+          "image": "https://example.com/images/gulbadin_naib.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Karim Janat",
+          "role": "All-rounder",
+          "image": "https://example.com/images/karim_janat.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Rashid Khan",
+          "role": "Bowler",
+          "captain": true,
+          "image": "https://example.com/images/rashid_khan.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Nangyal Kharoti",
+          "role": "Batsman",
+          "image": "https://example.com/images/nangyal_kharoti.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Hazratullah Zazai",
+          "role": "Bowler",
+          "image": "https://example.com/images/mujeeb_ur_rahman.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Noor Ahmad",
+          "role": "Bowler",
+          "image": "https://example.com/images/noor_ahmad.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Naveen-ul-Haq",
+          "role": "Bowler",
+          "image": "https://example.com/images/naveen_ul_haq.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Fazalhaq Farooqi",
+          "role": "Bowler",
+          "image": "https://example.com/images/fazalhaq_farooqi.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Fareed Ahmad Malik",
+          "role": "Bowler",
+          "image": "https://example.com/images/fareed_ahmad_malik.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        }
+      ]
+    },
+    {
+      "team_name": "Australia",
+      "squad": [
+        {
+          "name": "Aaron Finch",
+          "role": "Batsman",
+          "captain": true,
+          "image": "https://example.com/images/aaron_finch.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "David Warner",
+          "role": "Batsman",
+          "image": "https://example.com/images/david_warner.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Steve Smith",
+          "role": "Batsman",
+          "image": "https://example.com/images/steve_smith.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Glenn Maxwell",
+          "role": "All-rounder",
+          "image": "https://example.com/images/glenn_maxwell.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Marcus Stoinis",
+          "role": "All-rounder",
+          "image": "https://example.com/images/marcus_stoinis.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Matthew Wade",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/matthew_wade.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Pat Cummins",
+          "role": "Bowler",
+          "image": "https://example.com/images/pat_cummins.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Mitchell Starc",
+          "role": "Bowler",
+          "image": "https://example.com/images/mitchell_starc.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Josh Hazlewood",
+          "role": "Bowler",
+          "image": "https://example.com/images/josh_hazlewood.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Adam Zampa",
+          "role": "Bowler",
+          "image": "https://example.com/images/adam_zampa.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Kane Richardson",
+          "role": "Bowler",
+          "image": "https://example.com/images/kane_richardson.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Ashton Agar",
+          "role": "All-rounder",
+          "image": "https://example.com/images/ashton_agar.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Mitchell Marsh",
+          "role": "All-rounder",
+          "image": "https://example.com/images/mitchell_marsh.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Tim David",
+          "role": "All-rounder",
+          "image": "https://example.com/images/tim_david.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Josh Inglis",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/josh_inglis.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        }
+      ]
+    },
+    {
+      "team_name": "Bangladesh",
+      "squad": [
+        {
+          "name": "Mahmudullah",
+          "role": "Batsman",
+          "captain": true,
+          "image": "https://example.com/images/mahmudullah.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Liton Das",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/liton_das.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Soumya Sarkar",
+          "role": "Batsman",
+          "image": "https://example.com/images/soumya_sarkar.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Shakib Al Hasan",
+          "role": "All-rounder",
+          "image": "https://example.com/images/shakib_al_hasan.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Mushfiqur Rahim",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/mushfiqur_rahim.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Afif Hossain",
+          "role": "All-rounder",
+          "image": "https://example.com/images/afif_hossain.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Mahedi Hasan",
+          "role": "All-rounder",
+          "image": "https://example.com/images/mahedi_hasan.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Mustafizur Rahman",
+          "role": "Bowler",
+          "image": "https://example.com/images/mustafizur_rahman.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Shoriful Islam",
+          "role": "Bowler",
+          "image": "https://example.com/images/shoriful_islam.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Taskin Ahmed",
+          "role": "Bowler",
+          "image": "https://example.com/images/taskin_ahmed.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Nasum Ahmed",
+          "role": "Bowler",
+          "image": "https://example.com/images/nasum_ahmed.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Mohammad Saifuddin",
+          "role": "All-rounder",
+          "image": "https://example.com/images/mohammad_saifuddin.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Shamim Hossain",
+          "role": "All-rounder",
+          "image": "https://example.com/images/shamim_hossain.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Nurul Hasan",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/nurul_hasan.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Mohammad Naim",
+          "role": "Batsman",
+          "image": "https://example.com/images/mohammad_naim.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        }
+      ]
+    },
+    {
+      "team_name": "England",
+      "squad": [
+        {
+          "name": "Eoin Morgan",
+          "role": "Batsman",
+          "captain": true,
+          "image": "https://example.com/images/eoin_morgan.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/jos_buttler.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Jonny Bairstow",
+          "role": "Batsman",
+          "image": "https://example.com/images/jonny_bairstow.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Jason Roy",
+          "role": "Batsman",
+          "image": "https://example.com/images/jason_roy.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Dawid Malan",
+          "role": "Batsman",
+          "image": "https://example.com/images/dawid_malan.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Liam Livingstone",
+          "role": "All-rounder",
+          "image": "https://example.com/images/liam_livingstone.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Moeen Ali",
+          "role": "All-rounder",
+          "image": "https://example.com/images/moeen_ali.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Chris Woakes",
+          "role": "All-rounder",
+          "image": "https://example.com/images/chris_woakes.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Adil Rashid",
+          "role": "Bowler",
+          "image": "https://example.com/images/adil_rashid.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Chris Jordan",
+          "role": "Bowler",
+          "image": "https://example.com/images/chris_jordan.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Mark Wood",
+          "role": "Bowler",
+          "image": "https://example.com/images/mark_wood.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Tom Curran",
+          "role": "All-rounder",
+          "image": "https://example.com/images/tom_curran.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Sam Billings",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/sam_billings.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "David Willey",
+          "role": "All-rounder",
+          "image": "https://example.com/images/david_willey.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Tymal Mills",
+          "role": "Bowler",
+          "image": "https://example.com/images/tymal_mills.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        }
+      ]
+    },
+    {
+      "team_name": "India",
+      "squad": [
+        {
+          "name": "Rohit Sharma",
+          "role": "Batsman",
+          "captain": true,
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/3852.png",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {
+            "Runs": 9000,
+            "Average": 48.5,
+            "SR": 88.2,
+            "4s": 700,
+            "6s": 150,
+            "Matches": 220,
+            "Innings": 210
+          }
+        },
+        {
+          "name": "Hardik Pandya",
+          "role": "All-rounder",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/63751.png",
+          "cartoon": "assets/Pandya.png",
+          "playerStatsBowler": {
+            "Wickets": 50,
+            "Economy": 6.2,
+            "Average": 30.5,
+            "Matches": 70,
+            "Innings": 65
+          }
+        },
+        {
+          "name": "Yashasvi Jaiswal",
+          "role": "Batsman",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/69238.png",
+          "cartoon": "assets/Yash.png",
+          "playerStatsBatsman": {
+            "Runs": 1500,
+            "Average": 42.0,
+            "SR": 82.5,
+            "4s": 150,
+            "6s": 20,
+            "Matches": 40,
+            "Innings": 38
+          }
+        },
+        {
+          "name": "Virat Kohli",
+          "role": "Batsman",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/3993.png",
+          "cartoon": "assets/Kohli.png",
+          "playerStatsBatsman": {
+            "Runs": 12000,
+            "Average": 58.1,
+            "SR": 93.4,
+            "4s": 1100,
+            "6s": 250,
+            "Matches": 250,
+            "Innings": 240
+          }
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batsman",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/11803.png",
+          "cartoon": "assets/SKY.png",
+          "playerStatsBatsman": {
+            "Runs": 2000,
+            "Average": 45.2,
+            "SR": 98.6,
+            "4s": 200,
+            "6s": 60,
+            "Matches": 50,
+            "Innings": 48
+          }
+        },
+        {
+          "name": "Rishabh Pant",
+          "role": "Wicketkeeper",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/65756.png",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {
+            "Wickets": 0,
+            "Economy": 0.0,
+            "Average": 0.0,
+            "Matches": 40,
+            "Innings": 0
+          }
+        },
+        {
+          "name": "Sanju Samson",
+          "role": "Wicketkeeper",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/61837.png",
+          "cartoon": "assets/Pant.png",
+          "playerStatsBowler": {
+            "Wickets": 0,
+            "Economy": 0.0,
+            "Average": 0.0,
+            "Matches": 30,
+            "Innings": 0
+          }
+        },
+        {
+          "name": "Shivam Dube",
+          "role": "All-rounder",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/66044.png",
+          "cartoon": "assets/Dube.png",
+          "playerStatsBowler": {
+            "Wickets": 20,
+            "Economy": 7.5,
+            "Average": 35.4,
+            "Matches": 25,
+            "Innings": 22
+          }
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "role": "All-rounder",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/3850.png",
+          "cartoon": "assets/Jaddu.png",
+          "playerStatsBowler": {
+            "Wickets": 180,
+            "Economy": 4.9,
+            "Average": 28.2,
+            "Matches": 150,
+            "Innings": 140
+          }
+        },
+        {
+          "name": "Axar Patel",
+          "role": "All-rounder",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/62576.png",
+          "cartoon": "assets/Axar.png",
+          "playerStatsBowler": {
+            "Wickets": 70,
+            "Economy": 5.1,
+            "Average": 31.3,
+            "Matches": 50,
+            "Innings": 45
+          }
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "role": "Bowler",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/63187.png",
+          "cartoon": "assets/Kuldeep.png",
+          "playerStatsBowler": {
+            "Wickets": 90,
+            "Economy": 4.8,
+            "Average": 27.6,
+            "Matches": 60,
+            "Innings": 58
+          }
+        },
+        {
+          "name": "Yuzvendra Chahal",
+          "role": "Bowler",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/65799.png",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {
+            "Wickets": 75,
+            "Economy": 5.4,
+            "Average": 32.1,
+            "Matches": 50,
+            "Innings": 48
+          }
+        },
+        {
+          "name": "Arshdeep Singh",
+          "role": "Bowler",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/67905.png",
+          "cartoon": "assets/Arshdeep.png",
+          "playerStatsBowler": {
+            "Wickets": 30,
+            "Economy": 6.7,
+            "Average": 29.8,
+            "Matches": 25,
+            "Innings": 24
+          }
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowler",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/63755.png",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {
+            "Wickets": 100,
+            "Economy": 4.5,
+            "Average": 25.5,
+            "Matches": 80,
+            "Innings": 78
+          }
+        },
+        {
+          "name": "Mohd. Siraj",
+          "role": "Bowler",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/65799.png",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {
+            "Wickets": 60,
+            "Economy": 5.6,
+            "Average": 28.4,
+            "Matches": 40,
+            "Innings": 38
+          }
+        }
+      ],
+      "reserves": [
+        {
+          "name": "Shubman Gill",
+          "role": "Batsman",
+          "image": "https://example.com/images/shubman_gill.jpg"
+        },
+        {
+          "name": "Rinku Singh",
+          "role": "Batsman",
+          "image": "https://example.com/images/rinku_singh.jpg"
+        },
+        {
+          "name": "Khaleel Ahmed",
+          "role": "Bowler",
+          "image": "https://example.com/images/khaleel_ahmed.jpg"
+        },
+        {
+          "name": "Avesh Khan",
+          "role": "Bowler",
+          "image": "https://example.com/images/avesh_khan.jpg"
+        }
+      ]
+    },
+    {
+      "team_name": "New Zealand",
+      "squad": [
+        {
+          "name": "Kane Williamson",
+          "role": "Batsman",
+          "captain": true,
+          "image": "https://example.com/images/kane_williamson.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Martin Guptill",
+          "role": "Batsman",
+          "image": "https://example.com/images/martin_guptill.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Devon Conway",
+          "role": "Batsman",
+          "image": "https://example.com/images/devon_conway.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Glenn Phillips",
+          "role": "Batsman",
+          "image": "https://example.com/images/glenn_phillips.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Tim Seifert",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/tim_seifert.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "James Neesham",
+          "role": "All-rounder",
+          "image": "https://example.com/images/james_neesham.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Mitchell Santner",
+          "role": "All-rounder",
+          "image": "https://example.com/images/mitchell_santner.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Tim Southee",
+          "role": "Bowler",
+          "image": "https://example.com/images/tim_southee.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Ish Sodhi",
+          "role": "Bowler",
+          "image": "https://example.com/images/ish_sodhi.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Trent Boult",
+          "role": "Bowler",
+          "image": "https://example.com/images/trent_boult.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Kyle Jamieson",
+          "role": "Bowler",
+          "image": "https://example.com/images/kyle_jamieson.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Daryl Mitchell",
+          "role": "All-rounder",
+          "image": "https://example.com/images/daryl_mitchell.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Mark Chapman",
+          "role": "All-rounder",
+          "image": "https://example.com/images/mark_chapman.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Todd Astle",
+          "role": "Bowler",
+          "image": "https://example.com/images/todd_astle.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Lockie Ferguson",
+          "role": "Bowler",
+          "image": "https://example.com/images/lockie_ferguson.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        }
+      ]
+    },
+    {
+      "team_name": "Pakistan",
+      "squad": [
+        {
+          "name": "Babar Azam",
+          "role": "Batsman",
+          "captain": true,
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/59429.png",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Mohammad Rizwan",
+          "role": "Wicketkeeper",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/20286.png",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Fakhar Zaman",
+          "role": "Batsman",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/57492.png",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Haider Ali",
+          "role": "Batsman",
+          "image": "https://example.com/images/haider_ali.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Shoaib Malik",
+          "role": "All-rounder",
+          "image": "https://example.com/images/shoaib_malik.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Asif Ali",
+          "role": "Batsman",
+          "image": "https://example.com/images/asif_ali.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Shadab Khan",
+          "role": "All-rounder",
+          "image": "https://example.com/images/shadab_khan.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Imad Wasim",
+          "role": "All-rounder",
+          "image": "https://example.com/images/imad_wasim.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Hasan Ali",
+          "role": "Bowler",
+          "image": "https://example.com/images/hasan_ali.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Shaheen Afridi",
+          "role": "Bowler",
+          "image": "https://example.com/images/shaheen_afridi.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Haris Rauf",
+          "role": "Bowler",
+          "image": "https://example.com/images/haris_rauf.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Mohammad Nawaz",
+          "role": "All-rounder",
+          "image": "https://example.com/images/mohammad_nawaz.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Mohammad Hafeez",
+          "role": "All-rounder",
+          "image": "https://example.com/images/mohammad_hafeez.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Sarfaraz Ahmed",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/sarfaraz_ahmed.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Usman Qadir",
+          "role": "Bowler",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/67777.png",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        }
+      ]
+    },
+    {
+      "team_name": "South Africa",
+      "squad": [
+        {
+          "name": "Aiden Markram",
+          "role": "Batsman",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/64219.png",
+          "cartoon": "assets/aiden_markram.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "David Miller",
+          "role": "Batsman",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/5313.png",
+          "cartoon": "assets/david_miller.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Reeza Hendricks",
+          "role": "Batsman",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/4356.png",
+          "cartoon": "assets/reeza_hendricks.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Tristan Stubbs",
+          "role": "Batsman",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/74761.png",
+          "cartoon": "assets/tristan_stubbs.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Keshav Maharaj",
+          "role": "All-rounder",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/48607.png",
+          "cartoon": "assets/keshav_maharaj.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Marco Jansen",
+          "role": "All-rounder",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/69409.png",
+          "cartoon": "assets/marco_jansen.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Wicketkeeper",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/59736.png",
+          "cartoon": "assets/heinrich_klaasen.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Quinton de Kock",
+          "role": "Wicketkeeper",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/28035.png",
+          "cartoon": "assets/quinton_de_kock.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Ryan Rickelton",
+          "role": "Wicketkeeper",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/64941.png",
+          "cartoon": "assets/ryan_rickelton.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Anrich Nortje",
+          "role": "Bowler",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/63641.png",
+          "cartoon": "assets/anrich_nortje.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Bjorn Fortuin",
+          "role": "Bowler",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/64282.png",
+          "cartoon": "assets/bjorn_fortuin.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Gerald Coetzee",
+          "role": "Bowler",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/67443.png",
+          "cartoon": "assets/gerald_coetzee.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Kagiso Rabada",
+          "role": "Bowler",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/63611.png",
+          "cartoon": "assets/kagiso_rabada.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Ottneil Baartman",
+          "role": "Bowler",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/65089.png",
+          "cartoon": "assets/ottneil_baartman.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Tabraiz Shamsi",
+          "role": "Bowler",
+          "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/48191.png",
+          "cartoon": "assets/tabraiz_shamsi.png",
+          "playerStatsBowler": {}
+        }
+      ]
+
+    },
+    {
+      "team_name": "Sri Lanka",
+      "squad": [
+        {
+          "name": "Dasun Shanaka",
+          "role": "All-rounder",
+          "captain": true,
+          "image": "https://example.com/images/dasun_shanaka.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Kusal Perera",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/kusal_perera.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Avishka Fernando",
+          "role": "Batsman",
+          "image": "https://example.com/images/avishka_fernando.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Charith Asalanka",
+          "role": "Batsman",
+          "image": "https://example.com/images/charith_asalanka.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Dhananjaya de Silva",
+          "role": "All-rounder",
+          "image": "https://example.com/images/dhananjaya_de_silva.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Wanindu Hasaranga",
+          "role": "All-rounder",
+          "image": "https://example.com/images/wanindu_hasaranga.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Chamika Karunaratne",
+          "role": "All-rounder",
+          "image": "https://example.com/images/chamika_karunaratne.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Lahiru Kumara",
+          "role": "Bowler",
+          "image": "https://example.com/images/lahiru_kumara.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Maheesh Theekshana",
+          "role": "Bowler",
+          "image": "https://example.com/images/maheesh_theekshana.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Dushmantha Chameera",
+          "role": "Bowler",
+          "image": "https://example.com/images/dushmantha_chameera.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Binura Fernando",
+          "role": "Bowler",
+          "image": "https://example.com/images/binura_fernando.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Pathum Nissanka",
+          "role": "Batsman",
+          "image": "https://example.com/images/pathum_nissanka.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Nuwan Pradeep",
+          "role": "Bowler",
+          "image": "https://example.com/images/nuwan_pradeep.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Minod Bhanuka",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/minod_bhanuka.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Ashen Bandara",
+          "role": "Batsman",
+          "image": "https://example.com/images/ashen_bandara.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        }
+      ]
+    },
+    {
+      "team_name": "West Indies",
+      "squad": [
+        {
+          "name": "Rovman Powell",
+          "role": "All-rounder",
+          "captain": true,
+          "image": "https://example.com/images/rovman_powell.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Alzarri Joseph",
+          "role": "Bowler",
+          "image": "https://example.com/images/alzarri_joseph.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Johnson Charles",
+          "role": "Batsman",
+          "image": "https://example.com/images/johnson_charles.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Roston Chase",
+          "role": "All-rounder",
+          "image": "https://example.com/images/roston_chase.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Shimron Hetmyer",
+          "role": "Batsman",
+          "image": "https://example.com/images/shimron_hetmyer.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Jason Holder",
+          "role": "All-rounder",
+          "image": "https://example.com/images/jason_holder.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Shai Hope",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/shai_hope.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowler",
+          "image": "https://example.com/images/akeal_hosein.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Shamar Joseph",
+          "role": "Bowler",
+          "image": "https://example.com/images/shamar_joseph.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Brandon King",
+          "role": "Batsman",
+          "image": "https://example.com/images/brandon_king.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Gudakesh Motie",
+          "role": "Bowler",
+          "image": "https://example.com/images/gudakesh_motie.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Wicketkeeper",
+          "image": "https://example.com/images/nicholas_pooran.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {}
+        },
+        {
+          "name": "Andre Russell",
+          "role": "All-rounder",
+          "image": "https://example.com/images/andre_russell.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Sherfane Rutherford",
+          "role": "All-rounder",
+          "image": "https://example.com/images/sherfane_rutherford.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        },
+        {
+          "name": "Romario Shepherd",
+          "role": "All-rounder",
+          "image": "https://example.com/images/romario_shepherd.jpg",
+          "cartoon": "assets/rsharma.png",
+          "playerStatsBowler": {},
+          "playerStatsBatsman": {}
+        }
+      ]
+    }
+  ]
+}
