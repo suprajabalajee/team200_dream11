@@ -1,0 +1,27 @@
+.main-container {
+  .main_buttons {
+        display: flex;
+        position:fixed;
+        top: 47%;
+        left: 50%;
+        width:30em;
+        height:18em;
+        margin-top: -9em; /*set to a negative number 1/2 of your height*/
+        margin-left: -15em; /*set to a negative number 1/2 of your width*/
+        button{
+            top: 51%;
+            left: 8%;
+            height: 50%;
+            width: 45%;
+            &:hover{
+              border: 1px solid white;
+            }
+        }
+        .left_button{
+            margin-right: 10px;
+        }
+        .right_button{
+            margin-left: 10px;
+        }
+  }
+  }

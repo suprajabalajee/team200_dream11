@@ -1,0 +1,246 @@
+<div class="formFields">
+  <mat-form-field>
+    <mat-label>Select Team 1</mat-label>
+    <mat-select [(value)]="selectedTeam1">
+      <mat-option *ngFor="let team of squads" [value]="team.team_name">{{ team.team_name }}</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Select Team 2</mat-label>
+    <mat-select [(value)]="selectedTeam2">
+      <mat-option *ngFor="let team of squads" [value]="team.team_name">{{ team.team_name }}</mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
+<!--<div class="selectionBanner" *ngIf="totalSelected > 0">
+  Batsmen: {{batsman}} selected. 3 - 6 Batsmen can be selected
+  WicketKeeper: {{wicketKeeper}} selected. 1-4 Wicketkeepers can be selected
+  All-Rounder: {{allRounder}} selected. 1-4 All Rounder can be selected
+  Bowler: {{bowler}} selected. 3 - 6 Bowlers can be selected
+</div>-->
+
+<div class="overlay" *ngIf="isOverlaySubmitVisible">
+  <div class="overlay-content">
+    <button mat-icon-button class="close-button" (click)="closeOverlay()">
+      <mat-icon>close</mat-icon>
+    </button>
+    <img class="field" src="assets/field.jpg" alt="Field">
+    <div class="flex-table">
+      <div class="flex-column">
+        <div class="column-header">Batsmen</div>
+        <div *ngFor="let player of batsmen">
+          <img [src]="constructImageUrl(player.name)" alt="Batsman Image" class="player-image-field">
+        </div>
+      </div>
+      <div class="flex-column">
+        <div class="column-header">Bowlers</div>
+        <div *ngFor="let player of bowlers">
+          <img [src]="constructImageUrl(player.name)" alt="Bowler Image" class="player-image-field">
+        </div>
+      </div>
+      <div class="flex-column">
+        <div class="column-header">All Rounders</div>
+        <div *ngFor="let player of allRounders">
+          <img [src]="constructImageUrl(player.name)" alt="All Rounder Image" class="player-image-field">
+        </div>
+      </div>
+      <div class="flex-column">
+        <div class="column-header">Wicketkeepers</div>
+        <div *ngFor="let player of wicketKeepers">
+          <img [src]="constructImageUrl(player.name)" alt="Wicketkeeper Image" class="player-image-field">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="squads.length > 0" class="teams-container">
+  <div class="selectedTeam1">
+    <mat-card class="card-content" *ngFor="let player of getTeamSquad(selectedTeam1); let i = index">
+      <div class="card-content">
+        <div class="image-container">
+          <img [src]="constructImageUrl(player.name)" alt="Player Image" class="player-image" (click)="toggleOverlay(i); generatePlayerAsset(player.name, selectedTeam1)">
+          <div class="overlay" *ngIf="overlayIndex === i" @fadeInOut (@fadeInOut.done)="onFadeInDone($event, i)">
+            <img class="player-image" src="{{player.cartoon}}" *ngIf="rotateIndex === i" @swirl />
+            <div class="stats" *ngIf="player.role === 'Batsman' || player.role === 'All-rounder'  && ( player.playerStatsBatsman)">
+              <p><strong>Runs:</strong> {{player.playerStatsBatsman.Runs}}</p>
+              <p><strong>Average:</strong> {{player.playerStatsBatsman.Average}}</p>
+              <p><strong>Strike Rate:</strong> {{player.playerStatsBatsman.SR}}</p>
+              <p><strong>4s:</strong> {{player.playerStatsBatsman['4s']}}</p>
+              <p><strong>6s:</strong> {{player.playerStatsBatsman['6s']}}</p>
+              <p><strong>Matches:</strong> {{player.playerStatsBatsman.Matches}}</p>
+              <p><strong>Innings:</strong> {{player.playerStatsBatsman.Innings}}</p>
+            </div>
+            <div class="stats" *ngIf="player.role === 'Bowler' || player.role === 'All-rounder' && player.playerStatsBowler">
+              <p><strong>Wickets:</strong> {{player.playerStatsBowler.Wickets}}</p>
+              <p><strong>Average:</strong> {{player.playerStatsBowler.Average}}</p>
+              <p><strong>Matches:</strong> {{player.playerStatsBowler.Matches}}</p>
+              <p><strong>Innings:</strong> {{player.playerStatsBowler.Innings}}</p>
+              <p><strong>Economy:</strong> {{player.playerStatsBowler.Economy}}</p>
+            </div>
+            <button mat-icon-button class="close-button" (click)="toggleOverlay(i)">
+              <mat-icon>close</mat-icon>
+            </button>
+          </div>
+        </div>
+        <div class="details-container">
+          <mat-card-title>{{player.name}}</mat-card-title>
+          <mat-card-subtitle>{{player.role}}</mat-card-subtitle>
+          <div class="button-container">
+            <button mat-flat-button color="primary" [disabled]="counterTeam1 >= 7 || totalSelected >= 11" [ngClass]="{'clicked': clickedButtonTeam1.has(i)}" (click)="onButtonClickTeam1(i)" class="right_button">
+              <ng-container *ngIf="clickedButtonTeam1.has(i)">
+                {{player.name}} Added <mat-icon>check</mat-icon>
+              </ng-container>
+              <ng-container *ngIf="!clickedButtonTeam1.has(i)">
+                Add Player
+              </ng-container>
+            </button>
+            <button mat-icon-button *ngIf="clickedButtonTeam1.has(i)" (click)="removePlayerTeam1(i)">
+              <mat-icon [ngStyle]="{'color':'red'}">remove_circle</mat-icon>
+            </button>
+          </div>
+        </div>
+        <div class="selectionBanner" *ngIf="clickedButtonTeam1.has(i)">
+          <div class="countRole" *ngIf="player.role == 'Batsman'">
+            {{batsman}} Batsmen selected.
+            <div class="selectionInfo" *ngIf="batsman <= 6">
+              3-6 Batsmen can be selected
+            </div>
+            <div class="quotaExceededError" *ngIf="batsman > 6">
+              Batsmen Quota exceeded
+            </div>
+          </div>
+
+          <div class="countRole" *ngIf="player.role == 'All-rounder'">
+            {{allRounder}} All-Rounders selected.
+            <div class="selectionInfo" *ngIf="allRounder <= 4">
+              1-4 All-Rounders can be selected
+            </div>
+            <div class="quotaExceededError" *ngIf="allRounder > 4">
+              All-Rounders Quota exceeded
+            </div>
+          </div>
+
+          <div class="countRole" *ngIf="player.role == 'Wicketkeeper'">
+            {{wicketKeeper}} Wicketkeepers selected.
+            <div class="selectionInfo" *ngIf="wicketKeeper <= 4">
+              1-4 Wicketkeepers can be selected
+            </div>
+            <div class="quotaExceededError" *ngIf="wicketKeeper > 4">
+              Wicketkeepers Quota exceeded
+            </div>
+          </div>
+
+          <div class="countRole" *ngIf="player.role == 'Bowler'">
+            {{bowler}} Bowlers selected.
+            <div class="selectionInfo" *ngIf="bowler <= 6">
+              3-6 Bowlers can be selected
+            </div>
+            <div class="quotaExceededError" *ngIf="bowler > 6">
+              Bowlers Quota exceeded
+            </div>
+          </div>
+        </div>
+      </div>
+    </mat-card>
+  </div>
+
+  <div class="selectedTeam2">
+    <mat-card class="card-content" *ngFor="let player of getTeamSquad(selectedTeam2); let i = index">
+      <div class="card-content">
+        <div class="image-container">
+          <img [src]="constructImageUrl(player.name)" alt="Player Image" class="player-image" (click)="toggleOverlay(i+15); generatePlayerAsset(player.name, selectedTeam2)">
+          <div class="overlay" *ngIf="overlayIndex === i+15" @fadeInOut (@fadeInOut.done)="onFadeInDone($event, i+15)">
+            <img class="player-image" src="{{player.cartoon}}" *ngIf="rotateIndex === i+15" @swirl />
+            <div class="stats" *ngIf="player.role === 'Batsman' || player.role === 'All-rounder' || player.role === 'Wicketkeeper'  && ( player.playerStatsBatsman)">
+              <p><strong>Runs:</strong> {{player.playerStatsBatsman.Runs}}</p>
+              <p><strong>Average:</strong> {{player.playerStatsBatsman.Average}}</p>
+              <p><strong>Strike Rate:</strong> {{player.playerStatsBatsman.SR}}</p>
+              <p><strong>4s:</strong> {{player.playerStatsBatsman['4s']}}</p>
+              <p><strong>6s:</strong> {{player.playerStatsBatsman['6s']}}</p>
+              <p><strong>Matches:</strong> {{player.playerStatsBatsman.Matches}}</p>
+              <p><strong>Innings:</strong> {{player.playerStatsBatsman.Innings}}</p>
+            </div>
+            <div class="stats" *ngIf="player.role === 'Bowler' || player.role === 'All-rounder' && player.playerStatsBowler">
+              <p><strong>Wickets:</strong> {{player.playerStatsBowler.Wickets}}</p>
+              <p><strong>Average:</strong> {{player.playerStatsBowler.Average}}</p>
+              <p><strong>Matches:</strong> {{player.playerStatsBowler.Matches}}</p>
+              <p><strong>Innings:</strong> {{player.playerStatsBowler.Innings}}</p>
+              <p><strong>Economy:</strong> {{player.playerStatsBowler.Economy}}</p>
+            </div>
+            <button mat-icon-button class="close-button" (click)="toggleOverlay(i+15)">
+              <mat-icon>close</mat-icon>
+            </button>
+          </div>
+        </div>
+        <div class="details-container">
+          <mat-card-title>{{player.name}}</mat-card-title>
+          <mat-card-subtitle>{{player.role}}</mat-card-subtitle>
+          <div class="button-container">
+            <button mat-flat-button color="primary" [disabled]="counterTeam2 >= 7 || totalSelected >= 11" [ngClass]="{'clicked': clickedButtonTeam2.has(i+15)}" (click)="onButtonClickTeam2(i+15)" class="right_button">
+              <ng-container *ngIf="clickedButtonTeam2.has(i+15)">
+                {{player.name}} Added <mat-icon>check</mat-icon>
+              </ng-container>
+              <ng-container *ngIf="!clickedButtonTeam2.has(i+15)">
+                Add Player
+              </ng-container>
+            </button>
+            <button mat-icon-button *ngIf="clickedButtonTeam2.has(i+15)" (click)="removePlayerTeam2(i+15)">
+              <mat-icon [ngStyle]="{'color':'red'}">remove_circle</mat-icon>
+            </button>
+          </div>
+        </div>
+        <div class="selectionBanner" *ngIf="clickedButtonTeam2.has(i+15)">
+          <div class="countRole" *ngIf="player.role == 'Batsman'">
+            {{batsman}} Batsmen selected.
+            <div class="selectionInfo" *ngIf="batsman <= 6">
+              3-6 Batsmen can be selected
+            </div>
+            <div class="quotaExceededError" *ngIf="batsman > 6">
+              Batsmen Quota exceeded
+            </div>
+          </div>
+
+          <div class="countRole" *ngIf="player.role == 'All-rounder'">
+            {{allRounder}} All-Rounders selected.
+            <div class="selectionInfo" *ngIf="allRounder <= 4">
+              1-4 All-Rounders can be selected
+            </div>
+            <div class="quotaExceededError" *ngIf="allRounder > 4">
+              All-Rounders Quota exceeded
+            </div>
+          </div>
+
+          <div class="countRole" *ngIf="player.role == 'Wicketkeeper'">
+            {{wicketKeeper}} Wicketkeepers selected.
+            <div class="selectionInfo" *ngIf="wicketKeeper <= 4">
+              1-4 Wicketkeepers can be selected
+            </div>
+            <div class="quotaExceededError" *ngIf="wicketKeeper > 4">
+              Wicketkeepers Quota exceeded
+            </div>
+          </div>
+
+          <div class="countRole" *ngIf="player.role == 'Bowler'">
+            {{bowler}} Bowlers selected.
+            <div class="selectionInfo" *ngIf="bowler <= 6">
+              3-6 Bowlers can be selected
+            </div>
+            <div class="quotaExceededError" *ngIf="bowler > 6">
+              Bowlers Quota exceeded
+            </div>
+          </div>
+        </div>
+      </div>
+    </mat-card>
+  </div>
+</div>
+<footer class="footer">
+  <div>
+    <div *ngIf="counterTeam1 > 0">{{counterTeam1}} of 11 {{selectedTeam1}} players added</div>
+    <div *ngIf="counterTeam2 > 0">{{counterTeam2}} of 11 {{selectedTeam2}} players added</div>
+  </div>
+  <button [disabled]="!isSelectionValid()" mat-raised-button color="accent" (click)="onSubmit()">Visualize and Submit</button>
+</footer>

@@ -1,0 +1,9 @@
+.mat-typography{
+  background: url("src/assets/team200_background.jpg") !important;
+}
+.main_toolbar {
+  background: rgba(312, 204, 204, 0.7);
+  font-size: 30px;
+  text-shadow: 0 0 3px #CCCCCC, 0 0 5px #0000FF;
+  font-family: fantasy;
+}
